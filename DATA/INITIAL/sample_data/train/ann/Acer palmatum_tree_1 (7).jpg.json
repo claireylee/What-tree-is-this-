@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 9123562,
+            "tagId": 23830,
+            "name": "acer_palmatum",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-16T15:31:44.969Z",
+            "updatedAt": "2023-10-16T15:31:44.969Z"
+        }
+    ],
+    "size": {
+        "height": 1200,
+        "width": 1600
+    },
+    "objects": []
+}

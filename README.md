@@ -36,25 +36,30 @@ Below is the project's folder structure.
 DS-4002-Project1-GPT-6.0
 ├── DATA/                                   : includes all data
 │   ├── Final/                                  : final data
-│   │   └── cleaned_parking_tickets.csv             : processed parking ticket file, dropping unecessary columns and encoding catgeorical variables
+│   │   └── tree_data/
+│   │       └── train/
+│   │       └── validate/
+│   │       └── test/
 │   ├── Initial/                                : initial data
-│   │   └── Parking_Tickets.csv                     : un-processed parking ticket file
+│   │   ├── full_data/                              : full data
+│   │   └── sample_data/                            : sample data
 |   └── README                                  : Metadata explanation
-├── OUTPUT/                                 : includes final outputs from "analyze.py"
-│   ├── Final/                                  : -
-│   │   └── models/                                 : all generated models and their corresponding scalers
-│   └── M12/                                    : EDA for MI2 shown in DATA/README.md
-│       ├── tickets_by_day_of_week_and_street.png   : EDA chart that counts grouped occurences of parking tickets by day and week
-│       └── tickets_by_day_of_week.png              : EDA chart that counts grouped occurences of parking tickets by day
-├── SCRIPTS/                                : folder holding all scripts
-│   ├── clean_parking_data.py                   : a script for processing the intial data
-│   ├── create_models.py                        : a script for training models on the time split
-│   └── score_models.py                         : a script for scoring trained models on accuracy
-├── LICENSE.md                              : general file - MIT licensing
-├── requirements.txt                        : general file - contains necessary packages
-└── .venv                                   : general file - private environment specific to a user
+├── OUTPUT/                                     : includes final outputs from trained models
+│   ├── Final/                                      : -
+│   │   └── models/                                     : both generated ResNet18 Models
+│   └── M12/                                        : EDA for MI2 shown in DATA/README.md
+│       ├── sample_train_split_images_per_class.png     : EDA chart that counts number of classes per training split from the sample data
+│       └── sample_train_test_images_per_class.png      : EDA chart that counts number of classes per test split from the sample data
+├── SCRIPTS/                                    : folder holding all scripts
+│   ├── tbd                                         : tbd
+│   ├── tbd                                         : tbd
+│   └── tbd                                         : tbd
+├── LICENSE.md                                  : general file - MIT licensing
+├── requirements.txt                            : general file - contains necessary packages
+├── .gitignore                                  : general file - keeps certain files off of github
+└── .venv                                       : general file - private environment specific to a user
 ```
-
+OUTPUT/MI2/sample_train_split_images_per_class.png
 ## Replication Instructions
 1) Base Installations
     - Install Python 3.10+ and Git
@@ -77,7 +82,10 @@ DS-4002-Project1-GPT-6.0
     - **___TO-DO___**
 
 ### References
-- [1] “Parking Tickets.” City of Charlottesville, 2017. https://opendata.charlottesville.org/datasets/0ae373f4c2884abbb296500125bb9d8a_7/explore. 
-- [2] GeeksforGeeks. 2025. “Evaluation Metrics in Machine Learning.” GeeksforGeeks. July 15, 2025. https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/.
-- [3]“6.3. Preprocessing data — scikit-learn 0.22.2 documentation,” scikit-learn.org. https://scikit-learn.org/stable/modules/preprocessing.html#encoding-categorical-features
-- [4] Anon. IsolationForest. Scikit-learn. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html.
+- [1] https://datasetninja.com/urban-street-tree-classification, “Urban Street: Tree Classification - Dataset Ninja,” Dataset Ninja, 2022. http://datasetninja.com/urban-street-tree-classification#download (accessed Nov. 05, 2025).
+- [2] K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” arXiv.org, Dec. 10, 2015. https://arxiv.org/abs/1512.03385 
+- [3]P. Baheti, “Train, Validation, and Test Set: How to Split Your Machine Learning Data,” V7labs.com, Sep. 13, 2021. https://www.v7labs.com/blog/train-validation-test-set
+- [4]scikit learn, “3.1. Cross-validation: Evaluating Estimator Performance — scikit-learn 0.21.3 Documentation,” Scikit-learn.org, 2009. https://scikit-learn.org/stable/modules/cross_validation.html
+- [5] GeeksforGeeks. 2025. “Evaluation Metrics in Machine Learning.” GeeksforGeeks. July 15, 2025. https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/.
+- [6] “Using UVA’s High-Performance Computing Systems | Research Computing,” Virginia.edu, Dec. 03, 2024. https://www.rc.virginia.edu/userinfo/hpc/
+- [7] C. Writer, “What Is ResNet-18? How to Use the Lightweight CNN Model,” Roboflow Blog, Jun. 23, 2025. https://blog.roboflow.com/resnet-18/
