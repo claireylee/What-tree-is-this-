@@ -1,19 +1,3 @@
 {
-    "description": "",
-    "tags": [
-        {
-            "id": 9126867,
-            "tagId": 23850,
-            "name": "styphnolobium_japonicum",
-            "value": null,
-            "labelerLogin": "inbox@datasetninja.com",
-            "createdAt": "2023-10-16T15:55:47.456Z",
-            "updatedAt": "2023-10-16T15:55:47.456Z"
-        }
-    ],
-    "size": {
-        "height": 1200,
-        "width": 1600
-    },
-    "objects": []
+    "name": "styphnolobium_japonicum"
 }

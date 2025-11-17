@@ -1,0 +1,517 @@
+Folder Name,Number of Images,File Name,Annotations
+test/img/,51,Acer palmatum_tree_1 (156).JPG,acer_palmatum
+test/img/,51,Acer palmatum_tree_1 (90).jpg,acer_palmatum
+test/img/,51,Cedrus deodara_tree_1 (107).jpg,cedrus_deodara
+test/img/,51,Cedrus deodara_tree_1 (51).jpg,cedrus_deodara
+test/img/,51,Celtis sinensis_tree_1 (130).jpg,celtis_sinensis
+test/img/,51,Celtis sinensis_tree_1 (208).JPG,celtis_sinensis
+test/img/,51,Cinnamomum camphora (Linn) Presl_tree_1 (114).jpg,cinnamomum_camphora_(linn)_presl
+test/img/,51,Cinnamomum camphora (Linn) Presl_tree_1 (150).jpg,cinnamomum_camphora_(linn)_presl
+test/img/,51,Cinnamomum camphora (Linn) Presl_tree_1 (236).JPG,cinnamomum_camphora_(linn)_presl
+test/img/,51,Elaeocarpus decipiens_tree_1 (160).jpg,elaeocarpus_decipiens
+test/img/,51,Elaeocarpus decipiens_tree_1 (172).jpg,elaeocarpus_decipiens
+test/img/,51,Elaeocarpus decipiens_tree_1 (208).JPG,elaeocarpus_decipiens
+test/img/,51,Flowering cherry_tree_1 (75).jpg,flowering_cherry
+test/img/,51,Flowering cherry_tree_1 (83).jpg,flowering_cherry
+test/img/,51,Ginkgo biloba_tree_1 (130).jpg,ginkgo_biloba
+test/img/,51,Ginkgo biloba_tree_1 (154).jpg,ginkgo_biloba
+test/img/,51,IMG_6726.JPG,lagerstroemia_indica
+test/img/,51,Koelreuteria paniculata_tree_1 (158).jpg,koelreuteria_paniculata
+test/img/,51,Liquidambar formosana_tree_1 (146).jpg,liquidambar_formosana
+test/img/,51,Liquidambar formosana_tree_1 (69).jpg,liquidambar_formosana
+test/img/,51,Liriodendron chinense_tree_1 (108).jpg,liriodendron_chinense
+test/img/,51,Liriodendron chinense_tree_1 (126).jpg,liriodendron_chinense
+test/img/,51,Liriodendron chinense_tree_1 (132).jpg,liriodendron_chinense
+test/img/,51,Magnolia grandiflora L_tree_1 (107).jpg,magnolia_grandiflora_l
+test/img/,51,Magnolia grandiflora L_tree_1 (95).jpg,magnolia_grandiflora_l
+test/img/,51,Magnolia liliflora Desr_tree_1 (112).jpg,magnolia_liliflora_desr
+test/img/,51,Magnolia liliflora Desr_tree_1 (214).JPG,magnolia_liliflora_desr
+test/img/,51,Michelia chapensis_tree_1 (157).JPG,michelia_chapensis
+test/img/,51,Michelia chapensis_tree_1 (171).JPG,michelia_chapensis
+test/img/,51,Michelia chapensis_tree_1 (72).JPG,michelia_chapensis
+test/img/,51,Michelia chapensis_tree_1 (85).JPG,michelia_chapensis
+test/img/,51,Osmanthus fragrans_tree_1 (125).JPG,osmanthus_fragrans
+test/img/,51,Osmanthus fragrans_tree_1 (95).JPG,osmanthus_fragrans
+test/img/,51,Photinia serratifolia_tree_1 (144).JPG,photinia_serratifolia
+test/img/,51,Platanus_tree_1 (111).jpg,platanus
+test/img/,51,Platanus_tree_1 (129).jpg,platanus
+test/img/,51,Platanus_tree_1 (165).jpg,platanus
+test/img/,51,Prunus cerasifera f. atropurpurea_tree_1 (117).JPG,prunus_cerasifera_f._atropurpurea
+test/img/,51,Prunus cerasifera f. atropurpurea_tree_1 (46).JPG,prunus_cerasifera_f._atropurpurea
+test/img/,51,Prunus cerasifera f. atropurpurea_tree_1 (74).JPG,prunus_cerasifera_f._atropurpurea
+test/img/,51,Salix babylonica_tree_1 (100).jpg,salix_babylonica
+test/img/,51,Salix babylonica_tree_1 (88).jpg,salix_babylonica
+test/img/,51,Sapindus saponaria_tree_1 (120).jpg,sapindus_saponaria
+test/img/,51,Sapindus saponaria_tree_1 (141).jpg,sapindus_saponaria
+test/img/,51,Sapindus saponaria_tree_1 (249).JPG,sapindus_saponaria
+test/img/,51,Sapindus saponaria_tree_1 (278).JPG,sapindus_saponaria
+test/img/,51,Triadica sebifera_tree_1 (135).jpg,triadica_sebifera
+test/img/,51,Triadica sebifera_tree_1 (157).jpg,triadica_sebifera
+test/img/,51,Triadica sebifera_tree_1 (60).jpg,triadica_sebifera
+test/img/,51,Zelkova serrata_tree_1 (106).jpg,zelkova_serrata
+test/img/,51,Zelkova serrata_tree_1 (178).JPG,zelkova_serrata
+train/img/,418,Acer palmatum_tree_1 (101).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (111).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (113).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (128).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (130).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (137).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (15).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (152).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (153).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (17).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (178).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (189).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (190).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (196).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (203).JPG,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (25).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (33).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (4).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (43).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (5).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (7).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (72).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (73).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (81).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (85).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (87).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (9).jpg,acer_palmatum
+train/img/,418,Acer palmatum_tree_1 (93).jpg,acer_palmatum
+train/img/,418,Cedrus deodara_tree_1 (101).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (14).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (140).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (145).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (19).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (29).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (3).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (5).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (60).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (68).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (70).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (73).jpg,cedrus_deodara
+train/img/,418,Cedrus deodara_tree_1 (76).jpg,cedrus_deodara
+train/img/,418,Celtis sinensis_tree_1 (1).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (10).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (103).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (109).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (116).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (152).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (167).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (191).JPG,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (199).JPG,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (218).JPG,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (219).JPG,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (32).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (33).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (64).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (66).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (70).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (76).jpg,celtis_sinensis
+train/img/,418,Celtis sinensis_tree_1 (85).jpg,celtis_sinensis
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (101).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (104).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (117).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (12).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (152).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (165).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (170).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (182).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (189).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (196).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (210).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (212).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (213).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (216).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (223).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (241).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (38).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (5).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (64).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (70).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (77).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (78).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (81).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (87).JPG,cinnamomum_camphora_(linn)_presl
+train/img/,418,Cinnamomum camphora (Linn) Presl_tree_1 (95).jpg,cinnamomum_camphora_(linn)_presl
+train/img/,418,Elaeocarpus decipiens_tree_1 (107).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (108).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (113).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (120).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (139).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (141).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (158).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (16).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (201).JPG,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (205).JPG,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (23).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (36).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (42).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (54).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (81).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (89).jpg,elaeocarpus_decipiens
+train/img/,418,Elaeocarpus decipiens_tree_1 (91).jpg,elaeocarpus_decipiens
+train/img/,418,Flowering cherry_tree_1 (12).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (120).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (123).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (21).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (3).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (37).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (86).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (92).jpg,flowering_cherry
+train/img/,418,Flowering cherry_tree_1 (93).jpg,flowering_cherry
+train/img/,418,Ginkgo biloba_tree_1 (117).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (119).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (123).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (140).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (147).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (158).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (198).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (201).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (21).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (22).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (224).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (229).JPG,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (231).JPG,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (233).JPG,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (263).JPG,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (272).JPG,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (276).JPG,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (36).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (56).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (59).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (69).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (9).jpg,ginkgo_biloba
+train/img/,418,Ginkgo biloba_tree_1 (96).jpg,ginkgo_biloba
+train/img/,418,IMG_5665.JPG,lagerstroemia_indica
+train/img/,418,IMG_5666.JPG,lagerstroemia_indica
+train/img/,418,IMG_6713.JPG,lagerstroemia_indica
+train/img/,418,IMG_6722.JPG,lagerstroemia_indica
+train/img/,418,IMG_6724.JPG,lagerstroemia_indica
+train/img/,418,IMG_6763.JPG,lagerstroemia_indica
+train/img/,418,IMG_8761.JPG,lagerstroemia_indica
+train/img/,418,Koelreuteria paniculata_tree_1 (14).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (145).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (15).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (157).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (163).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (183).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (189).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (197).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (211).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (227).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (233).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (235).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (247).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (258).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (277).JPG,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (37).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (39).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (57).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (69).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (7).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (72).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (80).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (82).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (89).jpg,koelreuteria_paniculata
+train/img/,418,Koelreuteria paniculata_tree_1 (91).jpg,koelreuteria_paniculata
+train/img/,418,Liquidambar formosana_tree_1 (10).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (107).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (119).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (128).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (129).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (145).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (151).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (178).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (21).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (44).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (49).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (5).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (54).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (61).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (68).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (70).jpg,liquidambar_formosana
+train/img/,418,Liquidambar formosana_tree_1 (98).jpg,liquidambar_formosana
+train/img/,418,Liriodendron chinense_tree_1 (105).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (112).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (139).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (160).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (163).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (179).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (196).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (208).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (225).JPG,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (25).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (26).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (4).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (58).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (61).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (78).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (91).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (93).jpg,liriodendron_chinense
+train/img/,418,Liriodendron chinense_tree_1 (97).jpg,liriodendron_chinense
+train/img/,418,Magnolia grandiflora L_tree_1 (115).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (12).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (129).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (131).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (161).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (167).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (17).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (180).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (189).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (194).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (195).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (197).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (206).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (213).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (249).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (254).JPG,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (44).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (5).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (63).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (71).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (80).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia grandiflora L_tree_1 (94).jpg,magnolia_grandiflora_l
+train/img/,418,Magnolia liliflora Desr_tree_1 (1).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (114).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (119).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (135).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (14).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (146).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (147).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (150).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (164).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (165).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (18).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (180).JPG,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (182).JPG,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (200).JPG,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (212).JPG,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (215).JPG,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (27).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (33).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (4).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (44).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (60).jpg,magnolia_liliflora_desr
+train/img/,418,Magnolia liliflora Desr_tree_1 (92).jpg,magnolia_liliflora_desr
+train/img/,418,Michelia chapensis_tree_1 (115).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (120).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (126).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (127).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (139).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (145).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (152).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (156).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (158).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (185).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (191).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (20).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (33).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (44).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (48).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (8).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (80).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (83).JPG,michelia_chapensis
+train/img/,418,Michelia chapensis_tree_1 (97).JPG,michelia_chapensis
+train/img/,418,Osmanthus fragrans_tree_1 (1).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (100).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (105).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (112).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (124).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (128).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (132).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (162).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (17).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (177).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (189).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (205).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (23).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (27).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (38).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (43).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (61).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (66).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (67).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (84).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (86).JPG,osmanthus_fragrans
+train/img/,418,Osmanthus fragrans_tree_1 (91).JPG,osmanthus_fragrans
+train/img/,418,Photinia serratifolia_tree_1 (1).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (110).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (125).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (142).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (143).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (17).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (20).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (26).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (47).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (82).JPG,photinia_serratifolia
+train/img/,418,Photinia serratifolia_tree_1 (96).JPG,photinia_serratifolia
+train/img/,418,Platanus_tree_1 (1).jpg,platanus
+train/img/,418,Platanus_tree_1 (113).jpg,platanus
+train/img/,418,Platanus_tree_1 (127).jpg,platanus
+train/img/,418,Platanus_tree_1 (137).jpg,platanus
+train/img/,418,Platanus_tree_1 (140).jpg,platanus
+train/img/,418,Platanus_tree_1 (155).jpg,platanus
+train/img/,418,Platanus_tree_1 (163).jpg,platanus
+train/img/,418,Platanus_tree_1 (173).jpg,platanus
+train/img/,418,Platanus_tree_1 (192).jpg,platanus
+train/img/,418,Platanus_tree_1 (193).jpg,platanus
+train/img/,418,Platanus_tree_1 (198).jpg,platanus
+train/img/,418,Platanus_tree_1 (200).jpg,platanus
+train/img/,418,Platanus_tree_1 (202).jpg,platanus
+train/img/,418,Platanus_tree_1 (22).jpg,platanus
+train/img/,418,Platanus_tree_1 (221).jpg,platanus
+train/img/,418,Platanus_tree_1 (233).JPG,platanus
+train/img/,418,Platanus_tree_1 (35).jpg,platanus
+train/img/,418,Platanus_tree_1 (49).jpg,platanus
+train/img/,418,Platanus_tree_1 (51).jpg,platanus
+train/img/,418,Platanus_tree_1 (52).jpg,platanus
+train/img/,418,Platanus_tree_1 (88).jpg,platanus
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (10).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (102).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (113).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (116).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (18).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (27).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (3).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (6).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (65).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (69).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (87).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Prunus cerasifera f. atropurpurea_tree_1 (99).JPG,prunus_cerasifera_f._atropurpurea
+train/img/,418,Salix babylonica_tree_1 (103).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (108).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (115).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (126).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (138).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (17).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (19).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (25).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (26).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (4).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (51).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (63).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (67).jpg,salix_babylonica
+train/img/,418,Salix babylonica_tree_1 (87).jpg,salix_babylonica
+train/img/,418,Sapindus saponaria_tree_1 (10).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (129).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (136).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (146).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (147).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (193).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (2).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (200).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (23).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (231).JPG,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (238).JPG,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (243).JPG,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (248).JPG,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (31).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (41).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (47).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (60).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (69).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (74).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (78).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (81).jpg,sapindus_saponaria
+train/img/,418,Sapindus saponaria_tree_1 (97).jpg,sapindus_saponaria
+train/img/,418,Styphnolobium japonicum_tree_1 (131).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (137).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (149).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (151).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (165).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (185).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (187).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (193).JPG,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (20).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (25).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (47).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (52).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (59).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (68).jpg,styphnolobium_japonicum
+train/img/,418,Styphnolobium japonicum_tree_1 (86).jpg,styphnolobium_japonicum
+train/img/,418,Triadica sebifera_tree_1 (103).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (104).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (108).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (119).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (12).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (125).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (163).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (180).JPG,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (182).JPG,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (185).JPG,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (24).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (41).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (48).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (49).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (70).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (71).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (93).jpg,triadica_sebifera
+train/img/,418,Triadica sebifera_tree_1 (97).jpg,triadica_sebifera
+train/img/,418,Zelkova serrata_tree_1 (126).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (135).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (14).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (149).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (150).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (151).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (158).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (174).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (177).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (195).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (205).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (22).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (221).JPG,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (26).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (37).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (38).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (40).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (5).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (51).jpg,zelkova_serrata
+train/img/,418,Zelkova serrata_tree_1 (86).jpg,zelkova_serrata
+val/img/,47,Acer palmatum_tree_1 (148).JPG,acer_palmatum
+val/img/,47,Acer palmatum_tree_1 (155).JPG,acer_palmatum
+val/img/,47,Acer palmatum_tree_1 (177).JPG,acer_palmatum
+val/img/,47,Acer palmatum_tree_1 (199).JPG,acer_palmatum
+val/img/,47,Cedrus deodara_tree_1 (147).JPG,cedrus_deodara
+val/img/,47,Celtis sinensis_tree_1 (179).jpg,celtis_sinensis
+val/img/,47,Celtis sinensis_tree_1 (186).jpg,celtis_sinensis
+val/img/,47,Celtis sinensis_tree_1 (215).JPG,celtis_sinensis
+val/img/,47,Celtis sinensis_tree_1 (75).jpg,celtis_sinensis
+val/img/,47,Celtis sinensis_tree_1 (81).jpg,celtis_sinensis
+val/img/,47,Cinnamomum camphora (Linn) Presl_tree_1 (125).jpg,cinnamomum_camphora_(linn)_presl
+val/img/,47,Cinnamomum camphora (Linn) Presl_tree_1 (161).jpg,cinnamomum_camphora_(linn)_presl
+val/img/,47,Cinnamomum camphora (Linn) Presl_tree_1 (179).jpg,cinnamomum_camphora_(linn)_presl
+val/img/,47,Cinnamomum camphora (Linn) Presl_tree_1 (275).JPG,cinnamomum_camphora_(linn)_presl
+val/img/,47,Elaeocarpus decipiens_tree_1 (102).jpg,elaeocarpus_decipiens
+val/img/,47,Elaeocarpus decipiens_tree_1 (58).jpg,elaeocarpus_decipiens
+val/img/,47,Flowering cherry_tree_1 (130).jpg,flowering_cherry
+val/img/,47,Ginkgo biloba_tree_1 (113).jpg,ginkgo_biloba
+val/img/,47,Ginkgo biloba_tree_1 (257).JPG,ginkgo_biloba
+val/img/,47,Koelreuteria paniculata_tree_1 (214).JPG,koelreuteria_paniculata
+val/img/,47,Liriodendron chinense_tree_1 (94).jpg,liriodendron_chinense
+val/img/,47,Magnolia grandiflora L_tree_1 (124).jpg,magnolia_grandiflora_l
+val/img/,47,Magnolia grandiflora L_tree_1 (154).jpg,magnolia_grandiflora_l
+val/img/,47,Magnolia grandiflora L_tree_1 (220).JPG,magnolia_grandiflora_l
+val/img/,47,Magnolia liliflora Desr_tree_1 (138).jpg,magnolia_liliflora_desr
+val/img/,47,Magnolia liliflora Desr_tree_1 (174).jpg,magnolia_liliflora_desr
+val/img/,47,Magnolia liliflora Desr_tree_1 (210).JPG,magnolia_liliflora_desr
+val/img/,47,Magnolia liliflora Desr_tree_1 (231).JPG,magnolia_liliflora_desr
+val/img/,47,Michelia chapensis_tree_1 (106).JPG,michelia_chapensis
+val/img/,47,Michelia chapensis_tree_1 (130).JPG,michelia_chapensis
+val/img/,47,Michelia chapensis_tree_1 (136).JPG,michelia_chapensis
+val/img/,47,Michelia chapensis_tree_1 (142).JPG,michelia_chapensis
+val/img/,47,Michelia chapensis_tree_1 (190).JPG,michelia_chapensis
+val/img/,47,Osmanthus fragrans_tree_1 (109).JPG,osmanthus_fragrans
+val/img/,47,Photinia serratifolia_tree_1 (129).JPG,photinia_serratifolia
+val/img/,47,Photinia serratifolia_tree_1 (147).JPG,photinia_serratifolia
+val/img/,47,Platanus_tree_1 (160).jpg,platanus
+val/img/,47,Platanus_tree_1 (181).jpg,platanus
+val/img/,47,Prunus cerasifera f. atropurpurea_tree_1 (58).JPG,prunus_cerasifera_f._atropurpurea
+val/img/,47,Salix babylonica_tree_1 (58).jpg,salix_babylonica
+val/img/,47,Sapindus saponaria_tree_1 (119).jpg,sapindus_saponaria
+val/img/,47,Sapindus saponaria_tree_1 (233).JPG,sapindus_saponaria
+val/img/,47,Sapindus saponaria_tree_1 (257).JPG,sapindus_saponaria
+val/img/,47,Styphnolobium japonicum_tree_1 (69).jpg,styphnolobium_japonicum
+val/img/,47,Styphnolobium japonicum_tree_1 (89).jpg,styphnolobium_japonicum
+val/img/,47,Zelkova serrata_tree_1 (153).JPG,zelkova_serrata
+val/img/,47,Zelkova serrata_tree_1 (77).jpg,zelkova_serrata
