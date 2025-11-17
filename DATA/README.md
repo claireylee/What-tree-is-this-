@@ -5,10 +5,10 @@ This dataset was created to investigate the research question: What is the best 
 The dataset enables machine learning models to perform tree species classification and further supports research into urban biodiversity and environmental monitoring. 
 
 - Initial Data: The dataset is stored in a zip folder with a separate test, train, and val folder that was split by the original project authors. Within the separate folders, it contains the img folder with the actual images and an ann folder containing the classifiers for each tree species.
-- Final Data: The dataset will be stored in separate folders that hold image files and the associated label files.  TBD
+- Final Data: The dataset will be stored in a single directory with a 70-20-10 proportional split. 
 
 # Provenance
-The data was collected through TBD 
+Our dataset comes from the publicly available "Urban Street: Tree Classification Dataset" hosted on Dataset Ninja. The images were collected by the original dataset creators in 10 cities across China between February and October 2022, using mobile devices to capture 23 tree species across multiple seasons. We downloaded the dataset directly from Dataset Ninja, first using the sample version to test our pipeline and then using the full 4,804-image dataset. The original dataset includes pre-made train/val/test folders, but for our analysis, we reorganized the images into a single directory and applied our own 70-20-10 proportional split. Other than restructuring the folders for reproducibility, we did not alter the raw image content. The dataset and our processed version are stored in our project's GitHub repository to ensure transparency and traceability. 
 
 
 # License 
