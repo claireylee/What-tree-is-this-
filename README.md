@@ -36,20 +36,23 @@ Below is the project's folder structure.
 DS-4002-Project1-GPT-6.0
 ├── DATA/                                   : includes all data
 │   ├── Final/                                  : final data
-│   │   ├── all_data/                               : all data together as images and labels
-│   │   └── split data/                                 : all data put into each split
+│   │   ├── full_data/                               : all data together as images and labels
+│   │   │   ├── train/                                  : training split images and labels
+│   │   │   ├── validate/                               : validating split images and labels
+│   │   │   └── test/                                   : testing split images and labels
+│   │   └── sample_data/                                 : all data put into each split
 │   │       ├── train/                                  : training split images and labels
 │   │       ├── validate/                               : validating split images and labels
 │   │       └── test/                                   : testing split images and labels
 │   ├── Initial/                                : initial data
 │   │   ├── full_data/                              : full data
-│   │   │   ├── test/                                   : testing split images and labels
-│   │   │   ├── train/                                  : training split images and labels
-│   │   │   └── val/                                    : validate split images and labels
+│   │       ├── ______/
+│   │       ├── ______/
+│   │       └── ______/
 │   │   └── sample_data/                            : sample data
-│   │       ├── test/                                   : testing split images and labels
-│   │       ├── train/                                  : training split images and labels
-│   │       └── val/                                    : validating split images and labels
+│   │       ├── ______/
+│   │       ├── ______/
+│   │       └── ______/
 |   └── README                                  : Metadata explanation
 ├── OUTPUT/                                     : includes final outputs from trained models
 │   ├── Final/                                      : -
