@@ -8,7 +8,7 @@ This project trains two ResNet18 models on tree images, one from scratch and one
 * **`/OUTPUT`**: Final figures and metrics used in the write-up, as well as figures from MI2.
 * **`LICENSE`**: An MIT license for our project
 * **`requirements.txt`**: Necessary package installations
-* **`.gitignore`**: Ignore local python virtual environment
+* **`.gitignore`**: Ignore local python virtual environment + full files
 
 ## Software and Platform
 **Software stack**
@@ -27,51 +27,61 @@ This project trains two ResNet18 models on tree images, one from scratch and one
 
 * **macOS** (Apple Silicon/Intel)
   The project also works on Windows with the same Python packages.
+* **Rivanna** (UVA Supercomputer)
+  Although all the scripts will work on a local machine, they were ran on the Rivanna supercomputer. It is recommended to use a machine with lots of computation power.
 
 ## Documentation Map
-**___TO-DO___**
 Below is the project's folder structure.
 
 ```
 DS-4002-Project1-GPT-6.0
 ├── DATA/                                   : includes all data
 │   ├── Final/                                  : final data
-│   │   ├── full_data/                               : all data together as images and labels
-│   │   │   ├── train/                                  : training split images and labels
-│   │   │   ├── validate/                               : validating split images and labels
-│   │   │   └── test/                                   : testing split images and labels
-│   │   └── sample_data/                                 : all data put into each split
-│   │       ├── train/                                  : training split images and labels
-│   │       ├── validate/                               : validating split images and labels
-│   │       └── test/                                   : testing split images and labels
-                ├── img/
-                └── ann/
+│   │   ├── sample_data/                            : sample data
+│   │   │   ├── test/                                   : 10% testing split
+│   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │   |   └── img/                                    : a folder that holds images that match annotations
+│   │   │   ├── train/                                  : 70% training split
+│   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │   |   └── img/                                    : a folder that holds images that match annotations
+│   │   │   └── validate/                               : 20% validation split
+│   │   │       ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │       └── img/                                    : a folder that holds images that match annotations
+│   │   └── full_data/                              : full data
+│   │       └── -                                       : mirrors sample_data, just more image and annotation files
 │   ├── Initial/                                : initial data
-│   │   ├── full_data/                              : full data
-│   │       ├── ______/
-│   │       ├── ______/
-│   │       └── ______/
-│   │   └── sample_data/                            : sample data
-│   │       ├── ______/
-│   │       ├── ______/
-│   │       └── ______/
+│   │   ├── sample_data/                            : sample data
+│   │   │   ├── test/                                   : original dataset testing split
+│   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │   |   └── img/                                    : a folder that holds images that match annotations
+│   │   │   ├── train/                                  : original dataset training split
+│   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │   |   └── img/                                    : a folder that holds images that match annotations
+│   │   │   ├── val/                                    : original dataset validation split
+│   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │   |   └── img/                                    : a folder that holds images that match annotations
+│   │   │   ├── README.md                               : in existing data download - unused
+│   │   │   ├── meta.json                               : in existing data download - unused
+│   │   │   └── LICENSE.md                              : in existing data download - unused
+│   │   └── full_data/                              : full data
+│   │       └── -                                       : mirrors sample_data, just more image and annotation files
 |   └── README                                  : Metadata explanation
 ├── OUTPUT/                                     : includes final outputs from trained models
-│   ├── Final/                                      : -
-│   │   └── models/                                     : both generated ResNet18 Models
+│   ├── Final/                                      : final outputs
+│   │   └── ______/                                     : TBD
 │   └── M12/                                        : EDA for MI2 shown in DATA/README.md
 │       ├── sample_train_split_images_per_class.png     : EDA chart that counts number of classes per training split from the sample data
 │       └── sample_train_test_images_per_class.png      : EDA chart that counts number of classes per test split from the sample data
 ├── SCRIPTS/                                    : folder holding all scripts
-│   ├── tbd                                         : tbd
-│   ├── tbd                                         : tbd
-│   └── tbd                                         : tbd
+│   ├── clean_json_annotations.py                   : takes exissting json annotation files and extracts relavent information
+│   ├── create_stratified_splits.py                 : create train-validate-test splits
+│   └── train_and_test_models.py                    : trains and tests ResNet18 models
 ├── LICENSE.md                                  : general file - MIT licensing
 ├── requirements.txt                            : general file - contains necessary packages
-├── .gitignore                                  : general file - keeps certain files off of github
+├── .gitignore                                  : general file - keeps certain files off of github, namely the large full data
 └── .venv                                       : general file - private environment specific to a user
 ```
-OUTPUT/MI2/sample_train_split_images_per_class.png
+
 ## Replication Instructions
 1) Base Installations
     - Install Python 3.10+ and Git
@@ -91,7 +101,11 @@ OUTPUT/MI2/sample_train_split_images_per_class.png
         - `python -m ipykernel install --user --name=.venv`
         - alternatively, in VS code you may have to define your interpreter as the one located in your venv. 
 3) Run
-    - **___TO-DO___**
+    - If you want to recreate all final files, within the base directory, run in order...
+        1) `clean_json_annotations.py` to re-create the cleaned annotations
+        2) `create_stratified_splits.py` to re-create the train-validate-test splits
+        3) `train_and_test_models.py` to re-create and re-score the models
+    - View the output in `/OUTPUT/FINAL/`, which includes the models as well as the performance in _______.
 
 ### References
 - [1] https://datasetninja.com/urban-street-tree-classification, “Urban Street: Tree Classification - Dataset Ninja,” Dataset Ninja, 2022. http://datasetninja.com/urban-street-tree-classification#download (accessed Nov. 05, 2025).
