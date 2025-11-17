@@ -21,7 +21,7 @@ This project trains two ResNet18 models on tree images, one from scratch and one
 
 * Standard Library: **___TO-DO___**
 * External: **___TO-DO___**
-> Install all via `pip install -r requirements.txt`.
+> Install all via `pip install -r requirements.txt` once your virtual environment is active.
 
 **Platform used for development**
 
@@ -44,6 +44,8 @@ DS-4002-Project1-GPT-6.0
 │   │       ├── train/                                  : training split images and labels
 │   │       ├── validate/                               : validating split images and labels
 │   │       └── test/                                   : testing split images and labels
+                ├── img/
+                └── ann/
 │   ├── Initial/                                : initial data
 │   │   ├── full_data/                              : full data
 │   │       ├── ______/
