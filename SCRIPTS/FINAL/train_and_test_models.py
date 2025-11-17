@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
 ------------------------------------------------------------------------------
-train_and_test_models.py
+Filename: train_and_test_models.py
 
 Purpose:
     Train and evaluate two ResNet18 models (pretrained and untrained) on an
