@@ -25,10 +25,9 @@ from collections import defaultdict
 import random
 
 # Base directory where initial (cleaned) data is stored
-INPUT_BASE_DIR = Path(__file__).parent.parent / "DATA" / "INITIAL" / "sample_data"
-
+INPUT_BASE_DIR = Path("/Users/clairelee/What-tree-is-this-/DATA/INITIAL/sample_data")
 # Base directory where final stratified split will be written
-OUTPUT_BASE_DIR = Path(__file__).parent.parent / "DATA" / "FINAL" / "sample_data"
+OUTPUT_BASE_DIR = Path("/Users/clairelee/What-tree-is-this-/DATA/FINAL/sample_data")
 
 # Split ratios used for dataset partitioning
 SPLIT_RATIOS = {
@@ -122,61 +121,37 @@ def stratified_split(data_by_species, train_ratio=0.70, val_ratio=0.20, test_rat
     """
     Perform stratified dataset splitting, ensuring each species appears in the
     train/validate/test sets according to given ratios.
-
-    Args:
-        data_by_species: dict species_name -> list of items
-        train_ratio: percentage allocated to training
-        val_ratio: percentage allocated to validation
-        test_ratio: percentage allocated to testing
-        random_seed: ensures reproducible shuffling
-
-    Returns:
-        splits: dict containing:
-            - 'train' : list of items
-            - 'validate' : list of items
-            - 'test' : list of items
     """
     random.seed(random_seed)
-    
-    # Initialize dictionary to store the resulting splits
-    splits = {
-        'train': [],
-        'validate': [],
-        'test': []
-    }
-    
-    # Validate that user-provided ratios sum to 1
+    splits = {'train': [], 'validate': [], 'test': []}
     total_ratio = train_ratio + val_ratio + test_ratio
     if abs(total_ratio - 1.0) > 0.001:
         raise ValueError(f"Split ratios must sum to 1.0, got {total_ratio}")
-    
+
     print(f"\nPerforming stratified split (train={train_ratio:.0%}, validate={val_ratio:.0%}, test={test_ratio:.0%})...")
     print(f"Total species: {len(data_by_species)}")
-    
-    # Loop over each species for per-species proportional splitting
+
     for species, items in data_by_species.items():
-        # Shuffle items belonging to this species
         shuffled_items = items.copy()
         random.shuffle(shuffled_items)
-        
         total_count = len(shuffled_items)
-        
-        # Compute indices where splits occur
-        train_end = int(total_count * train_ratio)
-        val_end = train_end + int(total_count * val_ratio)
-        
-        # Perform the actual slicing
-        train_items = shuffled_items[:train_end]
-        val_items = shuffled_items[train_end:val_end]
-        test_items = shuffled_items[val_end:]
-        
-        # Append the items to the corresponding split lists
+
+        # Use rounding to avoid systematic under-allocation
+        n_train = round(total_count * train_ratio)
+        n_val = round(total_count * val_ratio)
+        # Ensure all items are assigned (avoid rounding errors)
+        n_test = total_count - n_train - n_val
+
+        train_items = shuffled_items[:n_train]
+        val_items = shuffled_items[n_train:n_train + n_val]
+        test_items = shuffled_items[n_train + n_val:]
+
         splits['train'].extend(train_items)
         splits['validate'].extend(val_items)
         splits['test'].extend(test_items)
-        
+
         print(f"  {species}: {total_count} total -> train: {len(train_items)}, validate: {len(val_items)}, test: {len(test_items)}")
-    
+
     return splits
 
 def copy_files_to_splits(splits, output_base_dir):
