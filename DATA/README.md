@@ -18,7 +18,8 @@ The source dataset, titled "Urban Street: Tree Classification Dataset," was acce
 N/A
 
 # Data Dictionary 
-**___TO-DO___**
+
+<img width="626" height="607" alt="Screenshot 2025-11-19 at 1 50 45 PM" src="https://github.com/user-attachments/assets/768483f7-16db-48bb-a858-7550da769655" />
 
 
 # Explanatory Plots 
