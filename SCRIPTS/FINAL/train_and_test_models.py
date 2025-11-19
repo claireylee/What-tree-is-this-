@@ -52,9 +52,8 @@ import torchvision.models as models
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 # ---------------------------
-# USER / DATA-SPECIFIC VALUES
+# DATA-SPECIFIC VALUES
 # ---------------------------
-# The 23 class names you provided, used exactly as the keys in annotations.
 # The order of this list determines the integer mapping (0..22).
 LABEL_LIST: List[str] = [
     "cinnamomum_camphora_(linn)_presl",

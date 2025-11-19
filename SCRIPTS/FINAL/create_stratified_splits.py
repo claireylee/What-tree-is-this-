@@ -24,10 +24,11 @@ from pathlib import Path
 from collections import defaultdict
 import random
 
-# Base directory where initial (cleaned) data is stored
-INPUT_BASE_DIR = Path("/Users/clairelee/What-tree-is-this-/DATA/INITIAL/sample_data")
 # Base directory where final stratified split will be written
-OUTPUT_BASE_DIR = Path("/Users/clairelee/What-tree-is-this-/DATA/FINAL/sample_data")
+INPUT_BASE_DIR = Path(__file__).parent.parent.parent / "DATA" / "INITIAL" / "sample_data"
+
+# Base directory where final stratified split will be written
+OUTPUT_BASE_DIR = Path(__file__).parent.parent.parent / "DATA" / "FINAL" / "sample_data"
 
 # Split ratios used for dataset partitioning
 SPLIT_RATIOS = {

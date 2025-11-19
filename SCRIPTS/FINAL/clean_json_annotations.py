@@ -20,7 +20,7 @@ import json
 from pathlib import Path
 
 # Base directory where all annotation folders are located
-BASE_DIR = Path(__file__).parent.parent / "DATA" / "INITIAL" / "sample_data"
+BASE_DIR = Path(__file__).parent.parent.parent / "DATA" / "INITIAL" / "sample_data"
 
 # Relative annotation folder paths (test, train, val)
 ANNOTATION_FOLDERS = [
