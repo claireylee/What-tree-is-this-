@@ -83,24 +83,28 @@ LABEL_LIST: List[str] = [
 
 # Build a label -> integer index map
 LABEL_MAP: Dict[str, int] = {name: idx for idx, name in enumerate(LABEL_LIST)}
-NUM_CLASSES = len(LABEL_LIST)  # should be 23
+NUM_CLASSES = len(LABEL_LIST)
 
 # Data paths (relative)
-TRAIN_IMG_DIR = "train/img"
-TRAIN_ANN_DIR = "train/ann"
-VAL_IMG_DIR = "val/img"
-VAL_ANN_DIR = "val/ann"
-TEST_IMG_DIR = "test/img"
-TEST_ANN_DIR = "test/ann"
+#        note: change sample_data to final_data depending on script goal
+BASE_DIR = Path(__file__).parent.parent.parent / "DATA" / "FINAL" / "sample_data"
+TRAIN_IMG_DIR = BASE_DIR / "train" / "img"
+TRAIN_ANN_DIR = BASE_DIR / "train" / "ann"
+VAL_IMG_DIR = BASE_DIR / "validate" / "img"
+VAL_ANN_DIR = BASE_DIR / "validate" / "ann"
+TEST_IMG_DIR = BASE_DIR / "test" / "img"
+TEST_ANN_DIR = BASE_DIR / "test" / "ann"
 
 # Output directory where we will save models, confusion matrices, metrics
-OUTPUT_DIR = Path("OUTPUT/FINAL")
+OUTPUT_DIR = Path(__file__).parent.parent.parent / "OUTPUT" / "FINAL"
 
-# Hyperparameters (simple defaults; change if desired)
+# Hyperparamters
 BATCH_SIZE = 32
-EPOCHS = 5
+EPOCHS = 30
 LEARNING_RATE = 1e-4
-SEED = 42  # for repeatability where possible
+WEIGHT_DECAY = 1e-4
+OPTIMIZER = "adam"
+SEED = 42
 
 
 # ---------------------------
@@ -176,7 +180,7 @@ class ImageJsonDataset(Dataset):
         img = Image.open(img_path).convert("RGB")
 
         # Corresponding JSON annotation
-        ann_name = img_name.rsplit(".", 1)[0] + ".json"
+        ann_name = img_name + ".json"
         ann_path = os.path.join(self.ann_dir, ann_name)
 
         # Read JSON and extract either "name" or "label"
@@ -319,7 +323,7 @@ def main():
     val_ds = ImageJsonDataset(VAL_IMG_DIR, VAL_ANN_DIR, transform=test_transform, label_map=LABEL_MAP)
     test_ds = ImageJsonDataset(TEST_IMG_DIR, TEST_ANN_DIR, transform=test_transform, label_map=LABEL_MAP)
 
-    # DataLoaders: shuffle train, do not shuffle validation/test
+    # DataLoaders:
     train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
     test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
@@ -351,7 +355,12 @@ def main():
 
         # Loss & optimizer
         criterion = nn.CrossEntropyLoss()
-        optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
+        # Optimizer: Adam is chosen for stable and fast convergence when fine-tuning ResNet.
+        optimizer = torch.optim.Adam(
+            model.parameters(),
+            lr=LEARNING_RATE,
+            weight_decay=WEIGHT_DECAY
+        )
 
         # Training loop (simple; prints train and val accuracy per epoch)
         for epoch in range(1, EPOCHS + 1):
