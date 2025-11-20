@@ -58,18 +58,22 @@ DS-4002-Project1-GPT-6.0
 │   │   │   ├── train/                                  : original dataset training split
 │   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
 │   │   │   |   └── img/                                    : a folder that holds images that match annotations
-│   │   │   ├── val/                                    : original dataset validation split
-│   │   │   |   ├── ann/                                    : a folder that holds json file annotations that match images
-│   │   │   |   └── img/                                    : a folder that holds images that match annotations
-│   │   │   ├── README.md                               : in existing data download - unused
-│   │   │   ├── meta.json                               : in existing data download - unused
-│   │   │   └── LICENSE.md                              : in existing data download - unused
+│   │   │   └── val/                                    : original dataset validation split
+│   │   │       ├── ann/                                    : a folder that holds json file annotations that match images
+│   │   │       └── img/                                    : a folder that holds images that match annotations
 │   │   └── full_data/                              : full data
 │   │       └── -                                       : mirrors sample_data, just more image and annotation files
 |   └── README                                  : Metadata explanation
 ├── OUTPUT/                                     : includes final outputs from trained models
 │   ├── Final/                                      : final outputs
-│   │   └── ______/                                     : TBD
+│   │   ├── sample_data/                                : sample data
+│   │   |   ├── ResNet18_Pretrained_confusion_matrix.png    : confusion matrix results of our ResNet18 Pretrained Model
+│   │   |   ├── ResNet18_Pretrained.pth                     : the actual ResNet18 Pretrained Model being stored
+│   │   |   ├── ResNet18_Untrained_confusion_matrix.png     : confusion matrix results of our ResNet18 Model without any pretraining
+│   │   |   ├── ResNet18_Untrained.pth                      : the actual ResNet18 Model without any pretraining being stored
+│   │   |   └── metrics.json                                : metrics accross both models in a simple json file, showing the labels, results, and paths
+│   │   └── full_data/                                  : full data
+│   │       └── -                                           : mirrors sample_data, just results based on using the full data available
 │   └── M12/                                        : EDA for MI2 shown in DATA/README.md
 │       ├── sample_train_split_images_per_class.png     : EDA chart that counts number of classes per training split from the sample data
 │       └── sample_train_test_images_per_class.png      : EDA chart that counts number of classes per test split from the sample data
@@ -79,7 +83,7 @@ DS-4002-Project1-GPT-6.0
 │   └── train_and_test_models.py                    : trains and tests ResNet18 models
 ├── LICENSE.md                                  : general file - MIT licensing
 ├── requirements.txt                            : general file - contains necessary packages
-├── .gitignore                                  : general file - keeps certain files off of github, namely the large full data
+├── .gitignore                                  : general file - keeps certain files off of github
 └── .venv                                       : general file - private environment specific to a user
 ```
 
@@ -93,7 +97,7 @@ DS-4002-Project1-GPT-6.0
 2) Project Installations
     - Create python environment
         - macOS/Linux --> `python -m venv .venv && source .venv/bin/activate`
-        - Windows --> `python -m venv .venv && .venv\Scripts\activate`
+        - Windows --> `python -m venv .venv` followed by `.\.venv\Scripts\Activate.ps1`
             - Note, if you using a newer python it may be `python3 ...` for all commands
     - Install required packages
         - within the terminal, `pip install -r requirements.txt`
@@ -102,11 +106,12 @@ DS-4002-Project1-GPT-6.0
         - `python -m ipykernel install --user --name=.venv`
         - alternatively, in VS code you may have to define your interpreter as the one located in your venv. 
 3) Run
-    - If you want to recreate all final files, within the base directory, run in order...
+    - If you want to recreate all final files, within the root directory, run in order...
         1) `clean_json_annotations.py` to re-create the cleaned annotations
         2) `create_stratified_splits.py` to re-create the train-validate-test splits
-        3) `train_and_test_models.py` to re-create and re-score the models
-    - View the output in `/OUTPUT/FINAL/`, which includes the models as well as the performance in _______.
+        3) `train_and_test_models.py` to re-create and re-score the models. Note that this file is resource intensive to run.
+    - View the output in `/OUTPUT/FINAL/full_data/`, which includes the models as well as the performance in _______.
+    - Note that the scripts are currently coded to run on the full data, but the sample data results were included. To obtain sampled data results, go into each file and change the input and output directories (located near the top of each .py file) from `full_data` to `sample_data`.
 
 ### References
 - [1] https://datasetninja.com/urban-street-tree-classification, “Urban Street: Tree Classification - Dataset Ninja,” Dataset Ninja, 2022. http://datasetninja.com/urban-street-tree-classification#download (accessed Nov. 05, 2025).
