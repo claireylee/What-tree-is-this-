@@ -1,0 +1,40 @@
+{
+  "num_classes": 23,
+  "label_list": [
+    "cinnamomum_camphora_(linn)_presl",
+    "ginkgo_biloba",
+    "sapindus_saponaria",
+    "koelreuteria_paniculata",
+    "magnolia_grandiflora_l",
+    "platanus",
+    "magnolia_liliflora_desr",
+    "celtis_sinensis",
+    "zelkova_serrata",
+    "liriodendron_chinense",
+    "elaeocarpus_decipiens",
+    "osmanthus_fragrans",
+    "liquidambar_formosana",
+    "acer_palmatum",
+    "styphnolobium_japonicum",
+    "michelia_chapensis",
+    "triadica_sebifera",
+    "salix_babylonica",
+    "cedrus_deodara",
+    "photinia_serratifolia",
+    "flowering_cherry",
+    "prunus_cerasifera_f._atropurpurea",
+    "lagerstroemia_indica"
+  ],
+  "results": {
+    "ResNet18_Pretrained": {
+      "test_accuracy": 0.660377358490566,
+      "model_path": "C:\\Users\\julia\\Documents\\What-tree-is-this-\\OUTPUT\\FINAL\\sample_data\\ResNet18_Pretrained.pth",
+      "confusion_matrix_path": "C:\\Users\\julia\\Documents\\What-tree-is-this-\\OUTPUT\\FINAL\\sample_data\\ResNet18_Pretrained_confusion_matrix.png"
+    },
+    "ResNet18_Untrained": {
+      "test_accuracy": 0.41509433962264153,
+      "model_path": "C:\\Users\\julia\\Documents\\What-tree-is-this-\\OUTPUT\\FINAL\\sample_data\\ResNet18_Untrained.pth",
+      "confusion_matrix_path": "C:\\Users\\julia\\Documents\\What-tree-is-this-\\OUTPUT\\FINAL\\sample_data\\ResNet18_Untrained_confusion_matrix.png"
+    }
+  }
+}
