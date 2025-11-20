@@ -38,6 +38,7 @@ import json
 import errno
 from pathlib import Path
 from typing import Dict, List
+import time
 
 import numpy as np
 from PIL import Image
@@ -86,7 +87,7 @@ LABEL_MAP: Dict[str, int] = {name: idx for idx, name in enumerate(LABEL_LIST)}
 NUM_CLASSES = len(LABEL_LIST)
 
 # Data paths (relative)
-BASE_DIR = Path(__file__).parent.parent.parent / "DATA" / "FINAL" / "full_data"
+BASE_DIR = Path(__file__).parent.parent / "DATA" / "FINAL" / "full_data"
 TRAIN_IMG_DIR = BASE_DIR / "train" / "img"
 TRAIN_ANN_DIR = BASE_DIR / "train" / "ann"
 VAL_IMG_DIR = BASE_DIR / "validate" / "img"
@@ -95,7 +96,7 @@ TEST_IMG_DIR = BASE_DIR / "test" / "img"
 TEST_ANN_DIR = BASE_DIR / "test" / "ann"
 
 # Output directory where we will save models, confusion matrices, metrics
-OUTPUT_DIR = Path(__file__).parent.parent.parent / "OUTPUT" / "FINAL" / "full_data"
+OUTPUT_DIR = Path(__file__).parent.parent / "OUTPUT" / "FINAL" / "full_data"
 
 # Hyperparamters
 BATCH_SIZE = 32
@@ -338,6 +339,7 @@ def main():
 
     for model_name, use_pretrained in models_to_run:
         print(f"\n[INFO] ======== Starting run: {model_name} (pretrained={use_pretrained}) ========")
+        model_start_time = time.time()  # <-- track per-model time
 
         # Instantiate model: either with ImageNet weights or random init
         if use_pretrained:
@@ -363,9 +365,13 @@ def main():
 
         # Training loop (simple; prints train and val accuracy per epoch)
         for epoch in range(1, EPOCHS + 1):
+            epoch_start_time = time.time()  # <-- track per-epoch time
             train_acc = train_one_epoch(model, train_loader, optimizer, criterion, device)
             val_acc = evaluate_model(model, val_loader, device, collect=False)
-            print(f"[{model_name}] Epoch {epoch}/{EPOCHS}  train_acc={train_acc:.4f}  val_acc={val_acc:.4f}")
+
+            epoch_end_time = time.time()
+            print(f"[{model_name}] Epoch {epoch}/{EPOCHS}  train_acc={train_acc:.4f}  val_acc={val_acc:.4f}  "
+                  f"epoch_time={epoch_end_time - epoch_start_time:.2f}s")
 
         # Final evaluation on test set; collect predictions for confusion matrix
         test_acc, preds, labels = evaluate_model(model, test_loader, device, collect=True)
@@ -390,6 +396,9 @@ def main():
             "confusion_matrix_path": str(cm_out_path)
         }
 
+        model_end_time = time.time()
+        print(f"[INFO] Finished training {model_name} in {model_end_time - model_start_time:.2f}s")
+
     # Save overall metrics summary JSON
     metrics_out_path = OUTPUT_DIR / "metrics.json"
     with open(metrics_out_path, "w") as fh:
@@ -412,4 +421,7 @@ def main():
 # Entrypoint
 # ---------------------------
 if __name__ == "__main__":
+    overall_start_time = time.time()  # <-- track total runtime
     main()
+    overall_end_time = time.time()
+    print(f"\n[INFO] Total script runtime: {overall_end_time - overall_start_time:.2f}s")

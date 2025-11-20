@@ -19,7 +19,7 @@ This project trains two ResNet18 models on tree images, one from scratch and one
 
 **Key Python packages**
 
-* Standard Library: os, json, shutil, pathlib, collections, random, errno, typing
+* Standard Library: os, json, shutil, pathlib, collections, random, errno, typing, time
 * External: numpy, PIL, matplotlib.pyplot, torch, torchvision, sklearn.metrics
 
 > Install all via `pip install -r requirements.txt` once your virtual environment is active.
