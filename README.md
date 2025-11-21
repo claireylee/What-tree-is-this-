@@ -1,9 +1,9 @@
 # DS-4002-Project-3
 ## What Tree is This - Using ResNet18 as a Tree Image Classifier
-This project trains two ResNet18 models on tree images, one from scratch and one pretrained. In the end, we arrived at one final model that had the greatest accuracy at 92.2%, which was the pretrained model on ImageNet. The model without pretraining performed with 71.1% accuracy
+This project trains two ResNet18 models on tree images, one from scratch and one pretrained. In the end, our model pretrained on ImageNet had the greatest accuracy at 92.2%. The model without pretraining performed with 71.1% accuracy
 
 ## Contents
-* **`/SCRIPTS`**: Reusable code for data pulls, cleaning, modeling, plotting.
+* **`/SCRIPTS`**: Reusable code for cleaning, splitting, and model creation.
 * **`/DATA`**: All data states, including intial and final.
 * **`/OUTPUT`**: Final figures and metrics used in the write-up, as well as figures from MI2.
 * **`LICENSE`**: An MIT license for our project
@@ -29,7 +29,7 @@ This project trains two ResNet18 models on tree images, one from scratch and one
 * **macOS** (Apple Silicon/Intel)
   The project also works on Windows with the same Python packages.
 * **Rivanna** (UVA Supercomputer)
-  Although all the scripts will work on a local machine, they were ran on the Rivanna supercomputer. It is recommended to use a machine with lots of computation power.
+  Although all the scripts will work on a local machine, they were ran on the Rivanna (1 GPU, 8 Cores, 100Gb Memory). It is recommended to use a machine with lots of computation power.
 
 ## Documentation Map
 Below is the project's folder structure.
@@ -63,7 +63,7 @@ DS-4002-Project1-GPT-6.0
 │   │   │       └── img/                                    : a folder that holds images that match annotations
 │   │   └── full_data/                              : full data
 │   │       ├── -                                       : mirrors sample_data, just more image and annotation files
-│   │       └── -                                       : one additional file, training_output.txt that shows the console outputs with timing
+│   │       └── training_output.txt                     : one additional file that shows the console outputs with timing
 |   └── README                                  : Metadata explanation
 ├── OUTPUT/                                     : includes final outputs from trained models
 │   ├── Final/                                      : final outputs
@@ -101,7 +101,7 @@ DS-4002-Project1-GPT-6.0
         - Windows --> `python -m venv .venv` followed by `.\.venv\Scripts\Activate.ps1`
             - Note, if you using a newer python it may be `python3 ...` for all commands
     - Install required packages
-        - within the terminal, `pip install -r requirements.txt`
+        - Once your virtual environment is active, run `pip install -r requirements.txt`
     - Register the Jupyter kernel (if using notebooks outside VS Code):
         - `pip install ipykernel`
         - `python -m ipykernel install --user --name=.venv`
@@ -111,7 +111,7 @@ DS-4002-Project1-GPT-6.0
         1) `clean_json_annotations.py` to re-create the cleaned annotations
         2) `create_stratified_splits.py` to re-create the train-validate-test splits
         3) `train_and_test_models.py` to re-create and re-score the models. Note that this file is resource intensive to run.
-    - View the output in `/OUTPUT/FINAL/full_data/`, which includes the models and performance (json metric fiels and confusion matrices).
+    - View the output in `/OUTPUT/FINAL/full_data/`, which includes the models and performance (json metric files and confusion matrices).
     - Note that the scripts are currently coded to run on the full data, but the sample data results were included. To obtain sampled data results, go into each file and change the input and output directories (located near the top of each .py file) from `full_data` to `sample_data`.
 
 ### References
