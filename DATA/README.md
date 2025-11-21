@@ -20,7 +20,7 @@ N/A. No confidential or unethical data is being used.
 
 # Data Dictionary 
 
-<img width="626" height="607" alt="Screenshot 2025-11-19 at 1 50 45 PM" src="https://github.com/user-attachments/assets/768483f7-16db-48bb-a858-7550da769655" />
+<img width="673" height="422" alt="Screenshot 2025-11-21 at 1 31 40 PM" src="https://github.com/user-attachments/assets/d0ac8528-888b-4a6a-93e1-02f871f767e2" />
 
 
 # Explanatory Plots 
