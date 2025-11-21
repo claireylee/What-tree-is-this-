@@ -1,6 +1,6 @@
 # DS-4002-Project-3
 ## What Tree is This - Using ResNet18 as a Tree Image Classifier
-This project trains two ResNet18 models on tree images, one from scratch and one pretrained. In the end, we arrived at one final model that had the greatest accuracy at **___TO-DO___**, which was the **___TO-DO___** model.
+This project trains two ResNet18 models on tree images, one from scratch and one pretrained. In the end, we arrived at one final model that had the greatest accuracy at 92.2%, which was the pretrained model on ImageNet. The model without pretraining performed with 71.1% accuracy
 
 ## Contents
 * **`/SCRIPTS`**: Reusable code for data pulls, cleaning, modeling, plotting.
@@ -111,7 +111,7 @@ DS-4002-Project1-GPT-6.0
         1) `clean_json_annotations.py` to re-create the cleaned annotations
         2) `create_stratified_splits.py` to re-create the train-validate-test splits
         3) `train_and_test_models.py` to re-create and re-score the models. Note that this file is resource intensive to run.
-    - View the output in `/OUTPUT/FINAL/full_data/`, which includes the models as well as the performance in _______.
+    - View the output in `/OUTPUT/FINAL/full_data/`, which includes the models and performance (json metric fiels and confusion matrices).
     - Note that the scripts are currently coded to run on the full data, but the sample data results were included. To obtain sampled data results, go into each file and change the input and output directories (located near the top of each .py file) from `full_data` to `sample_data`.
 
 ### References
