@@ -62,7 +62,8 @@ DS-4002-Project1-GPT-6.0
 │   │   │       ├── ann/                                    : a folder that holds json file annotations that match images
 │   │   │       └── img/                                    : a folder that holds images that match annotations
 │   │   └── full_data/                              : full data
-│   │       └── -                                       : mirrors sample_data, just more image and annotation files
+│   │       ├── -                                       : mirrors sample_data, just more image and annotation files
+│   │       └── -                                       : one additional file, training_output.txt that shows the console outputs with timing
 |   └── README                                  : Metadata explanation
 ├── OUTPUT/                                     : includes final outputs from trained models
 │   ├── Final/                                      : final outputs
